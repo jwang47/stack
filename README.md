@@ -1,5 +1,5 @@
 # Stack
-A modern Tetris clone. Only runs on Windows at the moment.
+A barebones modern Tetris clone. Only runs on Windows at the moment.
 
 ## Features
 
