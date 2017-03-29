@@ -1,5 +1,16 @@
-bin
-log
-*.properties
-.metadata
-org.eclipse.jdt.core.prefs
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
