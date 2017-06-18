@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import net.faintedge.net.randomizer.TGMRandomizer;
+import net.faintedge.stack.colorschemes.LightColorScheme;
 import net.faintedge.stack.colorschemes.TGMColorScheme;
 import net.faintedge.stack.rotationsystems.SuperRotationSystem;
 import net.faintedge.stack.util.SimplePoint;
@@ -48,7 +49,7 @@ public class Playfield implements Renderable, Updatable {
     System.out.println("DAS: " + getDAS());
     this.field = new Piece[width][height];
     this.rotationSystem = new SuperRotationSystem();
-    this.colorScheme = new TGMColorScheme();
+    this.colorScheme = new LightColorScheme();
     this.randomizer = new TGMRandomizer();
     for (int i = 0; i < 3; i++) {
       this.pieceQueue.add(new Piece(this.randomizer.nextPiece()));
